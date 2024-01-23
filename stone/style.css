@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    background-image: linear-gradient(#FFFFFF,rgb(255, 252, 89));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 420px;
+    height: min-content;
+    border-radius: 12px;
+    padding: 25px;
+    background: transparent;
+}
+.header{
+    height: 50px;
+}
+.header p{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.choice .kachi, .pathor, .kagoj{
+    height: 80px;
+    width: 80px;
+    
+}
+.choices{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    cursor: pointer;
+}
+.choices :hover{
+    opacity: 80%;
+}
+.score-board{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin-top: 10px;
+}
+.score-board p{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+.disp{
+    width: 350px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background: transparent;
+    font-size: 20px;
+    font-weight: bold;
+    display:  block;
+    text-align: center;
+    margin: auto;
+}
+
